@@ -1,0 +1,208 @@
+div {
+    background-color: #C0DFE5;
+    text-align:center;
+}
+
+body {
+    background-color: #C0DFE5
+}
+
+#json {
+    background-color: rgb(75, 105, 140);
+}
+
+hr {
+    border-width: thick;
+}
+
+h1 {
+    color: rgb(73, 85, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+h2 {
+    color: rgb(73, 85, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+h3 {
+    color: rgb(73, 85, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+h4 {
+    color: rgb(73, 85, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+h5 {
+    color: rgb(73, 85, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#twoWayBind{
+    color: #150707;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+button {
+
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#resetApp {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+
+#submitInfo {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#clearInfo {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#permClear {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#calcSum {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#calcSub {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#calcDiv {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#calcMul {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}

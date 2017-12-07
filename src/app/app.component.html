@@ -1,0 +1,73 @@
+<!--Application Body-->
+<!-- Using ngIf -->
+<div>
+<h1>BasicApplication</h1>
+<button (click)="show2=show3=show4=false;show1=!show1"> Click for DispData</button>
+<button (click)="show1=show3=show4=false;show2=!show2">Click for BasicCalc</button>
+<button (click)="show1=show2=show4=false;show3=!show3">Click for Data</button>
+<button (click)="show1=show2=show3=false;show4=!show4">Click for TwoWayBinding</button><br /><br />
+<button id="resetApp" (click)="show1=show2=show3=show4=false">ResetApplication</button>
+</div>
+
+
+<!-- container for Taking Input from user and performing operations on the input values -->
+<div *ngIf="show2">
+<div id="basicCalc">
+<h4> Calculations</h4>
+Num1: <input type="number" #num1 />
+Num2: <input type="number" #num2 /> <br  /> <br />
+<button id="calcSum" (click)="calcSum(num1.value,num2.value)">Add</button>
+<button id="calcSub" (click)="calcSub(num1.value,num2.value)">Subtract</button>
+<button id="calcMul" (click)="calcMul(num1.value,num2.value)">Multiply</button>
+<button id="calcDiv" (click)="calcDiv(num1.value,num2.value)">Divide</button>
+<button id="clearInfo" (click)="num1.value='';num2.value='';sum=''">Clear</button><br />
+<br /><br />
+Output:<input type="number" value={{sum}} />
+<hr>
+</div>
+</div>
+
+ 
+
+<!-- Container for displaying user defined inputs  -->
+<div *ngIf="show1">
+<div id="dispInfo" style="text-align:center">
+<h5>Displaying Data</h5>
+Username: <input type="text" #text1 [(ngModel)]="textBox" /> 
+Password: <input type="password" #text2 [(ngModel)]="textVal" /> <br />
+<button id="submitInfo" (click)="appDisplay(text1.value,text2.value)"> Display </button> <br />
+<br /> <br /> 
+Username: <input value={{textBox}} /> 
+Password:  <input value={{textVal}} /> <br />
+<!-- <button id="clearInfo" (click)="textBox='';textVal=''">Clear</button><br /> -->
+<br /> <br /> 
+Username: <input value={{value1}} />
+Password: <input value={{value2}} /> <br />
+<button id="permClear" (click)="value1='';value2='';textBox='';textVal=''">ClearPerm</button><br />
+<hr>
+</div>
+</div>
+
+
+<!-- Two Way Binding Example -->
+<div *ngIf="show4">
+<div>
+<p>Two Way Binding</p>
+Name:<input type="text" #text3 [(ngModel)]="passwd">	
+<h6 id="twoWayBind"[hidden]="!passwd"> User Entered:{{passwd}} </h6>
+<hr>
+</div>
+</div>
+
+
+<!-- Importing data from a local json file  -->
+<!-- Using ngFor -->
+<div *ngIf="show3">
+<h4>Importing Data from Json File</h4>
+<div id="jsonInfo" *ngFor ="let d of data | async">
+<p>Color:{{d.color}}</p>
+<p>Value:{{d.value}}</p>
+<hr>
+</div>
+</div>
+
